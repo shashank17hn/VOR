@@ -1,0 +1,15 @@
+ private void aGauge2_ValueInRangeChanged(object sender, AGauge.ValueInRangeChangedEventArgs e)
+        {
+            if (e.valueInRange == 1)
+            {
+                label1.Text="WARNING!--OBJECTS IN MIRROR MAY APPEAR SLOWER THAN THEY USED TO.";
+            }
+            else if (e.valueInRange==2)
+            {
+                label1.Text="IF THIS GAUGE DISPLAYS YOUR CURRENT SPEED AND YOU STILL CAN SEE THIS THEN SOMTHING IS WRONG ;-)";
+            }
+            else
+            {
+                label1.Text = "";
+            }
+        }
