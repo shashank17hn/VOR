@@ -1,0 +1,30 @@
+    private void timer1_Tick(object sender, EventArgs e)
+        {
+           
+            aGauge4.Value += 10;
+            aGauge2.Value += 1;
+            aGauge12.Value += 5;
+
+           
+
+            if (aGauge4.Value >= 40000)
+            {
+                aGauge4.Value = 10000;
+            }
+
+            if (aGauge2.Value >= 1000)
+            {
+                aGauge2.Value = 0;
+            }
+            if (aGauge12.Value >= 260)
+            {
+                aGauge12.Value = 0;
+            }
+           
+           
+           
+            aGauge11.Value = (Single)(((Int32)aGauge11.Value + 9) % 10);
+           aGauge9.Value = (Single)(((Int32)aGauge9.Value + 99) % 100);
+           
+         
+        }
