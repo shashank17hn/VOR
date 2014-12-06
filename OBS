@@ -1,0 +1,53 @@
+  private void button2_Click(object sender, EventArgs e)
+        {
+            
+            float j = float.Parse(textBox2.Text);
+            if (j>=108 && j<=109 )
+                
+            {
+                aGauge1.Value = 3;
+                k = 3;
+
+            }
+            else if (j >= 109 && j <= 110)
+            {
+                aGauge1.Value = 6;
+                k = 6;
+
+            }
+            else if (j >= 110 && j <= 111)
+            {
+                aGauge1.Value = 9;
+                k = 9;
+            }
+            else if (j >= 111 && j <= 112)
+            {
+                aGauge1.Value = 12;
+                k = 12;
+            }
+            else if (j >= 112 && j <= 113)
+            {
+                aGauge1.Value = 15;
+                k = 15;
+            }
+            else if (j >= 113 && j <= 114)
+            {
+                aGauge1.Value = 18;
+                k = 18;
+            }
+            else if (j >= 114 && j <= 115)
+            {
+                aGauge1.Value = 21;
+                k = 21;
+            }
+            else if (j >= 115 && j <= 116)
+            {
+                aGauge1.Value = 24;
+                k = 24;
+            }
+            else if (j >= 116 && j <= 117)
+            {
+                aGauge1.Value = 27;
+                k = 27;
+            }
+        }
